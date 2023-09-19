@@ -1,0 +1,7 @@
+!pip install bitsandbytes
+!pip install git+https://github.com/huggingface/transformers.git@refs/pull/25740/head accelerate
+!pip install -q -U git+https://github.com/huggingface/peft.git
+!pip install git+https://github.com/huggingface/accelerate
+!pip install trl
+!huggingface-cli login
+!pip install gradio
