@@ -87,12 +87,12 @@ Inferencing this model locally requires a GPU with atleast 16GB of GPU RAM.
 
 1. Clone this repository to your local machine.
 ```bash
-git clone https://github.com/Sarthakrw/web-query.git
+git clone https://github.com/VivekChauhan05/Fine-tuning_CodeLlama-7b.git
 ```
 
 2. Navigate to project directory.
 ```bash
-cd web-query
+cd Fine-tuning CodeLlama-7b
 ```
 
 3. Install the required dependencies. 

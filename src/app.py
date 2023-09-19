@@ -19,8 +19,8 @@ def generate_response(prompt):
     # Generate a response using the pipeline
     pipe = pipeline(
         "text-generation",
-        model=model,
-        tokenizer=tokenizer,
+        model=model, # Luffy/codellama-2-7b-Instruct-hf-Fine-tuned
+        tokenizer=tokenizer, # AutoTokenizer.from_pretrained(model_name)
         max_length=1024,
         temperature=0.3,
         top_p=0.95,
