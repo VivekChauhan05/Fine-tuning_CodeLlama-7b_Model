@@ -92,7 +92,7 @@ git clone https://github.com/VivekChauhan05/Fine-tuning_CodeLlama-7b.git
 
 2. Navigate to project directory.
 ```bash
-cd Fine-tuning_CodeLlama-7b
+cd Fine-tuning_CodeLlama-7b_Model
 ```
 
 3. Install the required dependencies. 
