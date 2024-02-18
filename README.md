@@ -21,9 +21,9 @@ Quantization is applied to the base model using a custom configuration. This pro
 - `bnb_4bit_quant_type`: Specifies the quantization type as "nf4" (Nested float 4-bit).
 - `bnb_4bit_compute_dtype`: Sets the compute data type to torch.bfloat16.
 
-### 2.3. LoRA (Long Range Attention) Configuration
+### 2.3. LoRA (Low-Rank Adaptation) Configuration
 
-We enhance the model's ability to handle long-range dependencies in sequences of data by configuring LoRA attention mechanisms. Key parameters for LoRA include:
+LoRA (Low Rank Adaptation) is a new technique for fine-tuning deep learning models that works by reducing the number of trainable parameters. Key parameters for LoRA include:
 
 - `lora_r`: LoRA attention dimension set to 8.
 - `lora_alpha`: Alpha parameter for LoRA scaling set to 16.
@@ -55,7 +55,7 @@ The fine-tuning process consists of several key steps:
 
 - Tokenization: Transforming text data into a format suitable for the model.
 - Quantization: Optimizing the model for efficiency and memory usage.
-- LoRA Configuration: Enhancing long-range attention capabilities.
+- LoRA Configuration: Reduce the number of trainable parameters.
 - Training Configuration: Setting up training parameters and optimizations.
 - Supervised Fine-Tuning (SFT): Training the model on specific tasks using labeled data.
 - Model Saving: Saving the trained models for later use.
